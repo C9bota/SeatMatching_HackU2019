@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02D21F122F397610076B4BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D21F022F397610076B4BF /* CoreLocation.framework */; };
 		C04478FF22F0577500C70A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04478FE22F0577500C70A9A /* AppDelegate.swift */; };
 		C044790122F0577500C70A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044790022F0577500C70A9A /* ViewController.swift */; };
 		C044790422F0577500C70A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C044790222F0577500C70A9A /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C02D21F022F397610076B4BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C04478FB22F0577500C70A9A /* SeatMatchingiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatMatchingiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04478FE22F0577500C70A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C044790022F0577500C70A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02D21F122F397610076B4BF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C02D21EF22F397610076B4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C02D21F022F397610076B4BF /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C04478F222F0577500C70A9A = {
 			isa = PBXGroup;
 			children = (
 				C04478FD22F0577500C70A9A /* SeatMatchingiOS */,
 				C04478FC22F0577500C70A9A /* Products */,
+				C02D21EF22F397610076B4BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
