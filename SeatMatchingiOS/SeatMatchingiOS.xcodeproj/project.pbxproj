@@ -62,7 +62,6 @@
 		C04478FD22F0577500C70A9A /* SeatMatchingiOS */ = {
 			isa = PBXGroup;
 			children = (
-				DDF7C01822F84CA2008C3D2E /* New Group */,
 				C04478FE22F0577500C70A9A /* AppDelegate.swift */,
 				C044790022F0577500C70A9A /* ViewController.swift */,
 				C044790222F0577500C70A9A /* Main.storyboard */,
@@ -75,13 +74,6 @@
 				C044791922F062B500C70A9A /* EnumController.swift */,
 			);
 			path = SeatMatchingiOS;
-			sourceTree = "<group>";
-		};
-		DDF7C01822F84CA2008C3D2E /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
