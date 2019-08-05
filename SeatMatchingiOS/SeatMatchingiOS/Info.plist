@@ -20,8 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>Location  When In Use Usage Description</key>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>このアプリは位置情報を取得します</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>このアプリは位置情報を使用します</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
