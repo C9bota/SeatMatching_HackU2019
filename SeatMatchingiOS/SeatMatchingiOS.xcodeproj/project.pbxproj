@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C02D21F122F397610076B4BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D21F022F397610076B4BF /* CoreLocation.framework */; };
+		C03A6ED622F9499E00E2B993 /* GPS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03A6ED522F9499E00E2B993 /* GPS.storyboard */; };
 		C04478FF22F0577500C70A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04478FE22F0577500C70A9A /* AppDelegate.swift */; };
 		C044790122F0577500C70A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044790022F0577500C70A9A /* ViewController.swift */; };
 		C044790422F0577500C70A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C044790222F0577500C70A9A /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		C02D21F022F397610076B4BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C03A6ED522F9499E00E2B993 /* GPS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GPS.storyboard; sourceTree = "<group>"; };
 		C04478FB22F0577500C70A9A /* SeatMatchingiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatMatchingiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04478FE22F0577500C70A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C044790022F0577500C70A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				C04478FE22F0577500C70A9A /* AppDelegate.swift */,
 				C044790022F0577500C70A9A /* ViewController.swift */,
 				C044790222F0577500C70A9A /* Main.storyboard */,
+				C03A6ED522F9499E00E2B993 /* GPS.storyboard */,
 				C044790822F0577700C70A9A /* Assets.xcassets */,
 				C044790A22F0577700C70A9A /* LaunchScreen.storyboard */,
 				C044790D22F0577700C70A9A /* Info.plist */,
@@ -149,6 +152,7 @@
 				C044790C22F0577700C70A9A /* LaunchScreen.storyboard in Resources */,
 				C044790922F0577700C70A9A /* Assets.xcassets in Resources */,
 				C044790422F0577500C70A9A /* Main.storyboard in Resources */,
+				C03A6ED622F9499E00E2B993 /* GPS.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

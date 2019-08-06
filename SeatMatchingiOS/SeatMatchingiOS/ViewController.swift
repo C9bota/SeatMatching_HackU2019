@@ -35,7 +35,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         if status == .authorizedAlways {
             print("authoried!!")
             locationManager.delegate = self
-            locationManager.distanceFilter = 0
+            locationManager.distanceFilter = 10
             locationManager.startUpdatingLocation()
         }
     }
